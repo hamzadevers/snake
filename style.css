@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: wheat;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.container {
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+  width: fit-content;
+  /* background-color: rgb(53, 74, 92); */
+}
+.box {
+  width: fit-content;
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+  float: left;
+  text-align: center;
+  align-content: center;
+  font-weight: 900;
+  text-shadow: 1px 1px 5px rgb(202, 192, 192);
+}
+.row1 div {
+  background-image: linear-gradient(to top, red, yellow);
+}
+.row2 div {
+  background-image: linear-gradient(to top, green, yellow);
+}
+.row3 div {
+  background-image: linear-gradient(to top, orange, blue);
+}
+.row4 div {
+  background-image: linear-gradient(to top, brown, rgb(105, 185, 231));
+}
+.row5 div {
+  background-image: linear-gradient(to top, red, yellow);
+}
+.row6 div {
+  background-image: linear-gradient(to top, green, yellow);
+}
+.row7 div {
+  background-image: linear-gradient(to top, brown, rgb(105, 185, 231));
+}
+.row8 div {
+  background-image: linear-gradient(to top, red, yellow);
+}
+.row9 div {
+  background-image: linear-gradient(to top, green, yellow);
+}
+.row10 div {
+  background-image: linear-gradient(to top, orange, blue);
+}
+.row10 img {
+  width: 70px;
+  position: absolute;
+  bottom: 70px;
+  right: 400px;
+}
+.row7 img {
+  width: 140px;
+  position: absolute;
+  top: 200px;
+  right: 650px;
+}
+.row6 img {
+  width: 300px;
+  z-index: 1;
+  position: absolute;
+  top: 80px;
+  right: 650px;
+}
+.skl {
+  width: 150px;
+  z-index: 1;
+  position: fixed;
+  top: 90px;
+  left: 700px;
+}
+h2 {
+  text-align: center;
+  position: fixed;
+  top: 15px;
+}
